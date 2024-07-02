@@ -115,3 +115,76 @@ main p {
   margin: 20px;
   margin-top: 20px;
 }
+
+#formation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+  margin-top: 8em;
+}
+
+
+
+/**competence**/
+
+#compétence {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f1f1f1;
+  padding: 1em;
+  margin-top: 1em;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: rgb(20, 0, 131);
+}
+
+table {
+  border: 1px solid black;
+}
+td {
+  border: 1px solid black;
+  padding: 10px;
+  background-color: #f1f1f1;
+}
+
+/**competence**/
+
+/**Media queries (responsive)**/
+
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .navbar {
+    flex-direction: column;
+  }
+  .navbar li {
+    padding: 1em;
+  }
+  .container_navbar {
+    flex-direction: column;
+  }
+  .pasteque {
+    flex-direction: column;
+  }
+  footer {
+    flex-direction: column;
+  }
+  .cvwalter {
+    flex-direction: column;
+  }
+  .Coordonnées {
+    flex-direction: column;
+  }
+  #formation {
+    flex-direction: column;
+  }
+  #compétence {
+    flex-direction: column;
+  }
+}
+
+/**fin Media queries (responsive)**/
