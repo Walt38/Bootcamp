@@ -1,0 +1,117 @@
+body {
+  background-image: url("../assets/fondcv.jpg"); background-color: grey;
+
+}
+
+}
+h1 {
+  position: center;
+  top: 100%;
+  color: rgb(20, 0, 131);
+}
+
+/** Reset global**/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+/** Fin Reset global**/
+
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar  {
+  display: flex;
+}
+
+div img {
+  width: 90%;
+  filter: drop-shadow(8px 8px 8px rgb(255, 255, 255));
+}
+
+.navbar a:hover {
+  color: #838383;
+  }  
+
+.navbar li {
+  flex-direction: row;
+  padding: 1.5em;
+  text-transform: uppercase;
+  color: rgb(255, 94, 0);
+  }
+
+.pasteque {
+  display: flex;
+  flex-direction: row;
+}
+
+.container_navbar {
+    display:flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f1f1f1;
+  padding: 1em;
+  margin-top: 1em;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.cvwalter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f1f1f1;
+  padding: 1em;
+  margin-top: 1em;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Coordonnées {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 5em;
+  margin-top: 1em;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+  text-transform:uppercase;
+  text-decoration: underline;
+  padding: 10px;
+  margin: 20px;
+  margin-top: 40px;
+}
+
+main li {
+  color: rgb(102, 209, 2);
+  text-transform:uppercase;
+  padding: 10px;
+  margin: 2px;
+  margin-top: 20px;
+}
+
+main p {
+  color: rgb(0, 0, 0);
+  padding: 1px;
+  margin: 20px;
+  margin-top: 20px;
+}
