@@ -70,7 +70,18 @@ footer {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+
+footer img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+/** titre cv**/
 .cvwalter {
+  width: 111%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -81,6 +92,19 @@ footer {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.cvwalter:hover {
+  color: #0000;
+  background: 
+    linear-gradient(90deg,#000000 50%,#cacaca 0) 
+    var(--_p,100%)/200% no-repeat;
+  -webkit-background-clip: text;
+          background-clip: text;
+  transition: 2s;
+  }  
+
+/** Fin titre cv**/
+
 .Coordonnées {
   display: flex;
   flex-direction: row;
@@ -99,6 +123,7 @@ h2 {
   padding: 10px;
   margin: 20px;
   margin-top: 40px;
+
 }
 
 main li {
@@ -124,20 +149,15 @@ main p {
   margin-top: 8em;
 }
 
+/**Experiences**/
 
-
-/**competence**/
-
-#compétence {
+#experience {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #f1f1f1;
   padding: 1em;
   margin-top: 1em;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  color: rgb(20, 0, 131);
+  color: rgb(0, 0, 0);
 }
 
 table {
@@ -149,7 +169,30 @@ td {
   background-color: #f1f1f1;
 }
 
+/**Fin experience**/
+
+
 /**competence**/
+
+#compétence {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+  margin-top: 1em;
+  color: rgb(0, 0, 0);
+}
+
+table {
+  border: 1px solid black;
+}
+td {
+  border: 1px solid black;
+  padding: 10px;
+  background-color: #f1f1f1;
+}
+
+/**Fin competence**/
 
 /**Media queries (responsive)**/
 
@@ -188,3 +231,16 @@ td {
 }
 
 /**fin Media queries (responsive)**/
+
+/**Centre d'interet et langue**/
+
+#centreinteretlangue {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1em;
+  margin-top: 1em;
+}
+
+
+/**Fin Centre d'interet et langue**/
